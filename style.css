@@ -3,7 +3,7 @@ body {
     padding: 0;
 }
 .content {
-    margin-top: 50px; /* Ajuste conforme necessário para evitar sobreposição com o conteúdo fixo */
+    margin-top: 30px; /* Ajuste conforme necessário para evitar sobreposição com o conteúdo fixo */
 }
 
 .fixed-header {
@@ -11,7 +11,7 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra sutil */
+    box-shadow: 0px 2px 5px rgb(146, 146, 146); /* Adiciona uma sombra sutil */
     z-index: 1000; /* Certifica-se de que o cabeçalho fixo esteja acima do restante do conteúdo */
 }
 element.style {
@@ -344,4 +344,115 @@ element.style {
 a.home1{
     color: white;
     text-decoration: none;
+}
+.relative {
+    position: relative;
+}
+element.style {
+    min-height: calc(134px);
+    margin-top: -120px;
+    padding-top: 120px;
+    z-index: 39;
+}
+.break-word {
+    word-break: break-word;
+}
+
+.items-start {
+    align-items: flex-start;
+}
+.flex-shrink-0 {
+    flex-shrink: 0;
+}
+.flex {
+    display: flex;
+}
+.inset-0, .inset-y-0 {
+    top: 0;
+    bottom: 0;
+}
+
+.inset-0 {
+    right: 0;
+    left: 0;
+}
+.absolute {
+    position: absolute;
+}
+.pointer-events-none {
+    pointer-events: none;
+}
+
+element.style {
+    background-image: linear-gradient(rgb(52, 73, 115), rgb(167, 184, 217));
+}
+.z-10 {
+    z-index: 10;
+}
+.inset-0, .inset-y-0 {
+    top: 0;
+    bottom: 0;
+}
+.inset-0 {
+    right: 0;
+    left: 0;
+}
+.absolute {
+    position: absolute;
+}
+.text-center {
+    text-align: center;
+}
+
+.max-w-3xl {
+    max-width: 48rem;
+}
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+element.style {
+    color: rgb(255, 255, 255);
+    font-family: Oswald, sans-serif;
+    font-weight: 400;
+}
+@media (min-width: 1280px)
+{}.heading-xlarge {
+    font-size: 72px;
+    line-height: 80px;
+    font-weight: 500;
+}
+@media (min-width: 768px)
+{}.heading-xlarge {
+    font-weight: 600;
+    font-size: 46px;
+    line-height: 54px;
+}
+.heading-xlarge {
+    font-size: 36px;
+    line-height: 42px;
+    font-weight: 800;
+}
+.break-word {
+    word-break: break-word;
+}
+.text-center {
+    text-align: center;
+}
+.mb-6 {
+    margin-bottom: 1.5rem;
+}
+h2 {
+    font-size: 40px;
+    line-height: 48px;
+}
+h1, h2 {
+    font-weight: 700;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-size: inherit;
+    font-weight: inherit;
+}
+blockquote, dd, dl, figure, h1, h2, h3, h4, h5, h6, hr, p, pre {
+    margin: 0;
 }
