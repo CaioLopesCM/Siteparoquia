@@ -2,6 +2,18 @@ body {
     margin: 0;
     padding: 0;
 }
+.content {
+    margin-top: 50px; /* Ajuste conforme necessário para evitar sobreposição com o conteúdo fixo */
+}
+
+.fixed-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra sutil */
+    z-index: 1000; /* Certifica-se de que o cabeçalho fixo esteja acima do restante do conteúdo */
+}
 element.style {
     grid-template-columns: 1fr auto 1fr;
 }
@@ -64,9 +76,6 @@ element.style {
 }
 .flex {
     display: flex;
-}
-.content {
-    margin-top: 50px; /* Ajuste conforme necessário para evitar sobreposição com o conteúdo fixo */
 }
 element.style {
     background-color: rgb(52, 73, 115);
