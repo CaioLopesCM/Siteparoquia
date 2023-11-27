@@ -7,11 +7,11 @@ body {
 }
 
 .fixed-header {
-    position: fixed;
+    position: sticky;
     top: 0;
     left: 0;
     width: 100%;
-    box-shadow: 0px 2px 5px rgb(146, 146, 146); /* Adiciona uma sombra sutil */
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.009); /* Adiciona uma sombra sutil */
     z-index: 1000; /* Certifica-se de que o cabeçalho fixo esteja acima do restante do conteúdo */
 }
 element.style {
@@ -77,9 +77,19 @@ element.style {
 .flex {
     display: flex;
 }
-element.style {
+/*element.style {
     background-color: rgb(52, 73, 115);
-    color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);}*/
+.muda {
+    background-color: transparent; /* Cor inicial do cabeçalho */
+    color: white;
+    position: sticky;
+    width: 100%;
+    top: 0;
+    transition: background-color 0.3s ease; /* Transição suave de cor */
+}
+.header-scrolled {
+    background-color:rgb(52, 73, 115); /* Cor do cabeçalho ao rolar */
 }
 .transition-colors {
     transition-property: background-color,border-color,color,fill,stroke;
@@ -94,12 +104,6 @@ element.style {
 }
 .\!z-\[2000\] {
     z-index: 2000!important;
-}
-.top-0 {
-    top: 0;
-}
-.sticky {
-    position: sticky;
 }
 header {
     display: block;
@@ -455,4 +459,74 @@ h1, h2, h3, h4, h5, h6 {
 }
 blockquote, dd, dl, figure, h1, h2, h3, h4, h5, h6, hr, p, pre {
     margin: 0;
+}
+.text-center {
+    text-align: center;
+}
+.max-w-3xl {
+    max-width: 48rem;
+}
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+.pb-0 {
+    padding-bottom: 0;
+}
+.pt-0 {
+    padding-top: 0;
+}
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+.z-10 {
+    z-index: 10;
+}
+.relative {
+    position: relative;
+}
+@media (min-width: 1280px)
+{}.container {
+    max-width: 1280px;
+}
+@media (min-width: 1024px)
+{}.container {
+    max-width: 1024px;
+}
+@media (min-width: 768px)
+{}.container {
+    max-width: 768px;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+}
+@media (min-width: 640px)
+{}.container {
+    max-width: 640px;
+}
+.container {
+    width: 100%;
+    padding-right: 1.25rem;
+    padding-left: 1.25rem;
+}
+element.style {
+    min-height: calc(134px);
+    margin-top: -120px;
+    padding-top: 120px;
+    z-index: 39;
+}
+.break-word {
+    word-break: break-word;
+}
+.items-start {
+    align-items: flex-start;
+}
+.flex-shrink-0 {
+    flex-shrink: 0;
+}
+.flex {
+    display: flex;
+}
+.relative {
+    position: relative;
 }
