@@ -6,10 +6,28 @@
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-xxx" crossorigin="anonymous" />
     <title>Rosário de Fátima taquara</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">  
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            var header = document.querySelector("header");
+    
+            window.addEventListener("scroll", function () {
+                var scrolled = window.scrollY;
+                var sectionOffset = document.querySelector("section").offsetTop;
+    
+                if (scrolled >= sectionOffset) {
+                    header.classList.add("header-scrolled");
+                } 
+                else
+                {
+                    header.class.remove("header-scrolled");
+                }
+            });
+        });
+    </script>
 </head>
 <body>
-<div id="main-body" class="flex flex-col h-full overflow-y-auto overflow-x-hidden smooth-scroll transition-all fixed-header" style="font-family:'Quattrocento', serif;font-weight:400">
+<div id="main-body" class="flex flex-col h-full overflow-y-auto overflow-x-hidden smooth-scroll transition-all fixed-header" style="font-family:'Montserrat', sans-serif;font-weight:bolder">
 <header id="website-header fixo" class="!z-[2000] sticky top-0 transition-colors shadow-md muda">    <div class="grid items-center lg:gap-6 xl:gap-10 mx-auto pt-4 pb-4 px-6 lg:px-12" style="grid-template-columns:1fr auto 1fr">
         <div class="lg:w-auto whitespace-nowrap">
             <ul class="lg:flex items-center gap-x-4 gap-y-2 flex-wrap hidden">
@@ -47,48 +65,13 @@
                 <div class="absolute inset-0 z-10" style="background-image: linear-gradient(rgb(52, 73, 115), rgb(167, 184, 217));"></div></div>
                 <div class="relative z-10 container mx-auto pt-0 pb-0">
                 <div class="max-w-3xl text-center mx-auto">
-            <h2 class="mb-6 break-word text-center heading-xlarge" style="color: rgb(255, 255, 255); font-family: Oswald, sans-serif; font-weight: 400;">
+            <h2 class="mb-6 break-word text-center heading-xlarge" style="color: rgb(255, 255, 255); font-family: 'Montserrat',sans-serif;; font-weight: revert-layer;">
             Paróquia Rosário de Fátima e Santo Antônio de Lisboa</h2>
         </div></div></div>
     </section>
-    <script>
-        document.addEventListener("DOMContentLoaded", function () {
-            var header = document.querySelector("header");
-    
-            window.addEventListener("scroll", function () {
-                var scrolled = window.scrollY;
-                var sectionOffset = document.querySelector("section").offsetTop;
-    
-                if (scrolled >= sectionOffset) {
-                    header.classList.add("header-scrolled");
-                } 
-                else
-                {
-                    header.class.remove("header-scrolled");
-                }
-            });
-        });
-    </script>
+    <section class="relative">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3674.8512154803543!2d-43.37570129001366!3d-22.918858038214214!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9bd8f3809987fb%3A0xe4aa317b6a4d12a5!2sPar%C3%B3quia%20de%20Nossa%20Senhora%20do%20Ros%C3%A1rio%20de%20F%C3%A1tima%20e%20Santo%20Ant%C3%B4nio%20de%20Lisboa!5e0!3m2!1spt-BR!2sbr!4v1701456037571!5m2!1spt-BR!2sbr" width="200" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>    </section>
 </div>
-<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati dignissimos porro iste sapiente ea! Accusamus assumenda eligendi fugit reprehenderit delectus, esse labore temporibus unde sapiente, voluptatum, non nostrum architecto animi.</p>
-<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati dignissimos porro iste sapiente ea! Accusamus assumenda eligendi fugit reprehenderit delectus, esse labore temporibus unde sapiente, voluptatum, non nostrum architecto animi.</p>
-<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati dignissimos porro iste sapiente ea! Accusamus assumenda eligendi fugit reprehenderit delectus, esse labore temporibus unde sapiente, voluptatum, non nostrum architecto animi.</p>
-<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati dignissimos porro iste sapiente ea! Accusamus assumenda eligendi fugit reprehenderit delectus, esse labore temporibus unde sapiente, voluptatum, non nostrum architecto animi.</p>
-<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati dignissimos porro iste sapiente ea! Accusamus assumenda eligendi fugit reprehenderit delectus, esse labore temporibus unde sapiente, voluptatum, non nostrum architecto animi.</p>
-<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati dignissimos porro iste sapiente ea! Accusamus assumenda eligendi fugit reprehenderit delectus, esse labore temporibus unde sapiente, voluptatum, non nostrum architecto animi.</p>
-<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati dignissimos porro iste sapiente ea! Accusamus assumenda eligendi fugit reprehenderit delectus, esse labore temporibus unde sapiente, voluptatum, non nostrum architecto animi.</p>
-<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati dignissimos porro iste sapiente ea! Accusamus assumenda eligendi fugit reprehenderit delectus, esse labore temporibus unde sapiente, voluptatum, non nostrum architecto animi.</p>
-<var><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati dignissimos porro iste sapiente ea! Accusamus assumenda eligendi fugit reprehenderit delectus, esse labore temporibus unde sapiente, voluptatum, non nostrum architecto animi.</p></var>
-<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati dignissimos porro iste sapiente ea! Accusamus assumenda eligendi fugit reprehenderit delectus, esse labore temporibus unde sapiente, voluptatum, non nostrum architecto animi.</p>
-<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati dignissimos porro iste sapiente ea! Accusamus assumenda eligendi fugit reprehenderit delectus, esse labore temporibus unde sapiente, voluptatum, non nostrum architecto animi.</p>
-<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati dignissimos porro iste sapiente ea! Accusamus assumenda eligendi fugit reprehenderit delectus, esse labore temporibus unde sapiente, voluptatum, non nostrum architecto animi.</p>
-<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati dignissimos porro iste sapiente ea! Accusamus assumenda eligendi fugit reprehenderit delectus, esse labore temporibus unde sapiente, voluptatum, non nostrum architecto animi.</p>
-<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati dignissimos porro iste sapiente ea! Accusamus assumenda eligendi fugit reprehenderit delectus, esse labore temporibus unde sapiente, voluptatum, non nostrum architecto animi.</p>
-<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati dignissimos porro iste sapiente ea! Accusamus assumenda eligendi fugit reprehenderit delectus, esse labore temporibus unde sapiente, voluptatum, non nostrum architecto animi.</p>
-<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati dignissimos porro iste sapiente ea! Accusamus assumenda eligendi fugit reprehenderit delectus, esse labore temporibus unde sapiente, voluptatum, non nostrum architecto animi.</p>
-<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati dignissimos porro iste sapiente ea! Accusamus assumenda eligendi fugit reprehenderit delectus, esse labore temporibus unde sapiente, voluptatum, non nostrum architecto animi.</p>
 
-
-    
 </body>
 </html>
