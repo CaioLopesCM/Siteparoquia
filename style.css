@@ -88,13 +88,13 @@ element.style {
     top: 0;
     transition: background-color 0.3s ease; /* Transição suave de cor */
 }
-.header-scrolled {
-    background-color:rgb(52, 73, 115); /* Cor do cabeçalho ao rolar */
-}
+
 .transition-colors {
     transition-property: background-color,border-color,color,fill,stroke;
     transition-timing-function: cubic-bezier(.4,0,.2,1);
     transition-duration: .15s;
+}.header-scrolled {
+    background-color:rgb(52, 73, 115); /* Cor do cabeçalho ao rolar */
 }
 .shadow-md {
     --tw-shadow: 0 4px 6px -1px rgba(0,0,0,.1),0 2px 4px -1px rgba(0,0,0,.06);
