@@ -122,7 +122,7 @@ element.style {
     padding-bottom: 1rem;
 }
 .pt-4 {
-    padding-top: 1rem;
+    padding-top: 0rem;
 }
 .items-center {
     align-items: center;
@@ -509,4 +509,15 @@ element.style {
 }
 .relative {
     position: relative;
+}
+.fundo{
+    height: 100vh;
+    background-image: url(imagem/fundolok.jpg);
+    width: auto;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.z-10 {
+    z-index: 10;
 }

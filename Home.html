@@ -12,15 +12,15 @@
             var header = document.querySelector("header");
     
             window.addEventListener("scroll", function () {
-                var scrolled = window.scrollY;
-                var sectionOffset = document.querySelector("section").offsetTop;
+                let scrolled = window.scrollY;
+                let coordenadaInical = 0;
     
-                if (scrolled >= sectionOffset) {
+                if (scrolled > coordenadaInical) {
                     header.classList.add("header-scrolled");
                 } 
                 else
                 {
-                    header.class.remove("header-scrolled");
+                    header.classList.remove("header-scrolled");
                 }
             });
         });
@@ -69,9 +69,10 @@
             Paróquia Rosário de Fátima e Santo Antônio de Lisboa</h2>
         </div></div></div>
     </section>
-    <section class="relative">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3674.8512154803543!2d-43.37570129001366!3d-22.918858038214214!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9bd8f3809987fb%3A0xe4aa317b6a4d12a5!2sPar%C3%B3quia%20de%20Nossa%20Senhora%20do%20Ros%C3%A1rio%20de%20F%C3%A1tima%20e%20Santo%20Ant%C3%B4nio%20de%20Lisboa!5e0!3m2!1spt-BR!2sbr!4v1701456037571!5m2!1spt-BR!2sbr" width="200" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>    </section>
-</div>
+    <section class="relative fundo z-10">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3674.8512154803543!2d-43.37570129001366!3d-22.918858038214214!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9bd8f3809987fb%3A0xe4aa317b6a4d12a5!2sPar%C3%B3quia%20de%20Nossa%20Senhora%20do%20Ros%C3%A1rio%20de%20F%C3%A1tima%20e%20Santo%20Ant%C3%B4nio%20de%20Lisboa!5e0!3m2!1spt-BR!2sbr!4v1701456037571!5m2!1spt-BR!2sbr" width="350" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+
 
 </body>
 </html>
