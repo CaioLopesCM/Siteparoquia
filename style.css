@@ -512,21 +512,52 @@ element.style {
 }
 .fundo{
     height: 100vh;
-    background-image: url(imagem/fundolok.jpg);
+    background-image: url(imagem/fundoloki.jpg);
     width: auto;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 3rem;
+    height: 30rem;
 }
-.z-10 {
-    z-index: 10;
-}
-.mapinha iframe {
+.mapinha iframe{
     display: flex;
-    width: 45%;
+    width: 35%;
     height: 18em;
     margin-left: 40px;
     border-radius: 15px;
+    min-width: 300px;
 }
+@media (max-width: 768px) {
+    .section {
+      height: 200px; /* Altura diferente para telas menores */
+    }
+  }
+  .paragrafoloc {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    font-size: xx-large;
+}
+.loc {
+    text-align: center;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: medium;
+}
+.estiloh3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    font-size: x-large;
+}
+.estilo {
+    font-family: 'Montserrat', sans-serif;
+    font-size: medium;
+    font-weight: 700;
+    padding-top: 16px;
+}
+
+
 
